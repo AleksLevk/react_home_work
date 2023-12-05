@@ -1,0 +1,99 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(15,15,15,0.9);
+    color: #fff;
+    margin-top: 50vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    max-height: 150px;
+}
+
+
+/* 1 */
+
+.footer-section1{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100px;
+    max-width: 600px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footerText{
+    margin: 0;
+    text-align: start;
+    font-size: 10px;
+}
+
+.footer-links{
+    margin-top: 15px;
+    
+}
+
+.footer-links span{
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+/* 2 */
+
+.icon{
+    display: flex;
+}
+
+.section2-title{
+    font-size: 13px;
+}
+
+.facehover,
+.twitterhover,
+.googlehover,
+.githover{
+    transition: 0.2s;
+}
+
+.facehover:hover,
+.twitterhover:hover,
+.googlehover:hover,
+.githover:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+/* 3 */
+
+.section3-title{
+    font-size: 13px;
+}
+.googleIcon{
+    width: 150px;
+    height: 100px;
+    transition: 0.2s;
+}
+
+.appstoreIcon{
+    width: 150px;
+    height: 100px;
+    transition: 0.2s;
+}
+
+.googleIcon:hover{
+    transform: scale(1.2);
+}
+
+.appstoreIcon:hover{
+    transform: scale(1.2);
+}
